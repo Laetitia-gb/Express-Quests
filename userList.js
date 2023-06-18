@@ -33,4 +33,6 @@ const getUserById = (req, res) => {
 module.exports = {
   getUsers,
   getUserById,
+  postUser,
+  updateUser,
 };
