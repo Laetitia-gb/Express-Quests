@@ -31,3 +31,4 @@ app.listen(port, (err) => {
   }
 });
 
+app.put("api/movies/:id", movieHandlers.updateMovie);
